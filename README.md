@@ -16,8 +16,9 @@
 | **Phase 3: React & Animation Integration** | Days 62 - 89 | ⏳ Upcoming |
 | **Phase 4: Capstone Projects & Mastery** | Days 90 - 100 | ⏳ Upcoming |
 
-<details>
-<summary><strong>📅 Detailed Progress Log</strong></summary>
+## 📅 Detailed Progress Log
+
+<sup>(Expand/collapse this section in your editor as needed)</sup>
 
 ### Prerequisites (Days 0-5): Setting Up & Review
 
@@ -31,6 +32,7 @@
 ### Phase 1: HTML/CSS/JS Foundations & GSAP Basics (Days 6-33)
 
 #### Week 1 (Days 6-12): Core UI Components
+
 - [x] **Day 6:** Responsive Navigation Bar
 - [x] **Day 7:** Hero Section with CTA
 - [x] **Day 8:** Feature Cards Grid
@@ -40,6 +42,7 @@
 - [x] **Day 12:** Basic Footer
 
 #### Week 2 (Days 13-19): Interactivity & Simple Animations
+
 - [x] **Day 13:** Image Slider (Manual)
 - [x] **Day 14:** Simple Modal Popup
 - [x] **Day 15:** Countdown Timer
@@ -49,6 +52,7 @@
 - [x] **Day 19:** Simple To-Do List
 
 #### Week 3 (Days 20-26): Introducing GSAP
+
 - [x] **Day 20:** GSAP Setup & Basic Tween
 - [x] **Day 21:** GSAP Stagger Animation
 - [x] **Day 22:** Button Click Animation (GSAP)
@@ -58,6 +62,7 @@
 - [x] **Day 26:** ScrollTrigger Pinning
 
 #### Week 4 (Days 27-33): GSAP Deep Dive & Portfolio Prep
+
 - [x] **Day 27:** Text Animation
 - [x] **Day 28:** Image Gallery with Lightbox Effect
 - [x] **Day 29:** Animated Progress Steps
@@ -69,6 +74,7 @@
 ### Phase 2: Advanced GSAP & Complex Animations (Days 34-61)
 
 #### Week 5 (Days 34-40): GSAP Timelines & Sequences
+
 - [ ] **Day 34:** GSAP Timeline Basics
 - [ ] **Day 35:** Nested Timelines
 - [ ] **Day 36:** Controlling Timelines
@@ -78,6 +84,7 @@
 - [ ] **Day 40:** Animated Pricing Table
 
 #### Week 6 (Days 41-47): Advanced ScrollTrigger
+
 - [ ] **Day 41:** ScrollTrigger Markers & Refresh
 - [ ] **Day 42:** ScrollTrigger Toggle Actions
 - [ ] **Day 43:** ScrollTrigger Scrubbing
@@ -87,6 +94,7 @@
 - [ ] **Day 47:** Animated Landing Page Section
 
 #### Week 7 (Days 48-54): SVG & Morphing Animations
+
 - [ ] **Day 48:** SVG Basics & Inline SVG
 - [ ] **Day 49:** Animating SVG Properties
 - [ ] **Day 50:** DrawSVG Plugin
@@ -96,6 +104,7 @@
 - [ ] **Day 54:** Animated Logo
 
 #### Week 8 (Days 55-61): Complex UI Animations & Micro-interactions
+
 - [ ] **Day 55:** Animated Form Validation Feedback
 - [ ] **Day 56:** Animated Search Bar
 - [ ] **Day 57:** Animated Notification Toast
@@ -107,6 +116,7 @@
 ### Phase 3: React & Animation Integration (Days 62-89)
 
 #### Week 9 (Days 62-68): React Basics
+
 - [ ] **Day 62:** React Setup & First Component
 - [ ] **Day 63:** JSX Deep Dive & Component Composition
 - [ ] **Day 64:** Props
@@ -116,6 +126,7 @@
 - [ ] **Day 68:** Event Handling in React
 
 #### Week 10 (Days 69-75): React State & Effects
+
 - [ ] **Day 69:** Controlled Components
 - [ ] **Day 70:** Lifting State Up
 - [ ] **Day 71:** `useEffect` Hook
@@ -125,6 +136,7 @@
 - [ ] **Day 75:** Mini Project: Simple Weather App
 
 #### Week 11 (Days 76-82): GSAP in React
+
 - [ ] **Day 76:** Integrating GSAP with React
 - [ ] **Day 77:** Animating Lists in React with GSAP
 - [ ] **Day 78:** ScrollTrigger in React Components
@@ -134,6 +146,7 @@
 - [ ] **Day 82:** Mini Project: Animated Portfolio Section
 
 #### Week 12 (Days 83-89): Advanced React Animation Patterns
+
 - [ ] **Day 83:** Custom Hooks for Animations
 - [ ] **Day 84:** Context API for Global Animation Control
 - [ ] **Day 85:** Framer Motion Intro (Optional)
@@ -145,6 +158,7 @@
 ### Phase 4: Capstone Projects & Mastery (Days 90-100)
 
 #### Week 13 (Days 90-96): Capstone Project Planning & Development
+
 - [ ] **Day 90:** Project Planning
 - [ ] **Day 91:** Project Setup & Structure
 - [ ] **Day 92:** Core UI Implementation
@@ -154,12 +168,11 @@
 - [ ] **Day 96:** Micro-interactions & Polish
 
 #### Week 14 (Days 97-100): Finalization & Sharing
+
 - [ ] **Day 97:** Performance Optimization & Testing
 - [ ] **Day 98:** Responsive Design Final Check & Accessibility
 - [ ] **Day 99:** Deployment
 - [ ] **Day 100:** Celebration & Reflection!
-
-</details>
 
 ## 🎯 Challenge Goals
 
@@ -176,15 +189,19 @@
 This challenge is structured into 4 main phases, designed to progressively build your animation expertise:
 
 ### Phase 1: HTML/CSS/JS Foundations & GSAP Basics (Days 6-33)
+
 Focus on building common UI components and mastering fundamental JS interactions. Introduce GSAP for animations. Use projects like Responsive Navbar, Hero Section, Feature Cards, Modals, and more.
 
 ### Phase 2: Advanced GSAP & Complex Animations (Days 34-61)
+
 Deep dive into advanced GSAP features including Timelines, complex scroll interactions with ScrollTrigger, SVG animations (DrawSVG, MorphSVG), and intricate micro-interactions.
 
 ### Phase 3: React & Animation Integration (Days 62-89)
+
 Learn React basics (Components, Props, State, Hooks) and seamlessly integrate GSAP animations within React components. Explore performance considerations and optional libraries like Framer Motion.
 
 ### Phase 4: Capstone Projects & Mastery (Days 90-100)
+
 Apply all learned concepts to build one or more impressive, animated showcase projects that demonstrate your mastery of frontend development and animation techniques.
 
-## 📁 Follow me 
+## 📁 Follow me
