@@ -187,4 +187,4 @@ Learn React basics (Components, Props, State, Hooks) and seamlessly integrate GS
 ### Phase 4: Capstone Projects & Mastery (Days 90-100)
 Apply all learned concepts to build one or more impressive, animated showcase projects that demonstrate your mastery of frontend development and animation techniques.
 
-## 📁 Repository Structure
+## 📁 Follow me 
