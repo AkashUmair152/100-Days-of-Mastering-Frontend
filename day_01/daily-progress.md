@@ -1,27 +1,22 @@
-# Day 1 - Personal Card
 
-## 🎯 Objective
-Create a responsive personal card using HTML and CSS
+# Day 0: Development Environment Setup
 
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- Google Fonts
+Today I learned how to set up my development environment for the 100 Days Challenge. Here’s what I accomplished:
 
-## 📝 What I Learned
-- Semantic HTML structure
-- CSS Flexbox layout
-- Responsive design principles
-- CSS custom properties
+- Installed VS Code, Git, Node.js, and a package manager (npm/yarn/pnpm).
+- Created a GitHub account and set up a new repository for the challenge.
+- Initialized a basic project structure with the following files:
+    - `index.html`
+    - `styles.css`
+    - `script.js`
 
-## 🚀 Features
-- Responsive design
-- Hover effects
-- Modern layout
+## Day 1: Quick HTML Review
 
-## 📸 Preview
-![Personal Card](screenshots/demo.png)
+Today I revisited key HTML concepts including semantic tags, forms, lists, and tables. As practice, I built a simple static page—a personal profile card—using semantic HTML elements like `<header>`, `<main>`, `<section>`, `<article>`, and `<footer>`. This helped reinforce the importance of structure and accessibility in web pages.
 
-## 🧪 How to Run
-```bash
-open index.html
+## Day 2: Quick CSS Review
+
+I refreshed my understanding of CSS fundamentals: selectors, the Box Model, Flexbox, and Grid. I styled the profile card from Day 1, using Flexbox to organize the header, content, and footer, and Grid to lay out an image gallery section. This exercise improved my ability to create responsive and visually appealing layouts.
+
+
+
