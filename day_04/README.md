@@ -1,6 +1,4 @@
-Here’s a professional `README.md` for your project, written in Markdown format. It explains the purpose, features, setup instructions, and more.
 
----
 
 ```markdown
 # 🎬 Landing Page Design — "Mouthwash"
@@ -104,10 +102,4 @@ MIT License — free to use and modify.
 
 ```
 
----
 
-Let me know if you want me to:
-- Generate a live preview version.
-- Add badges (e.g. Made with GSAP, HTML5, etc).
-- Convert this into a GitHub README with clickable links.
-```
