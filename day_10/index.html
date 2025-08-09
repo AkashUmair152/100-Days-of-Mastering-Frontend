@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GSAP Timeline || ScrollTrigger</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <div id="main">
+    <section id="section-1">
+      <!-- Navigation -->
+      <nav>
+        <h1>GSAP</h1>
+        <div class="items">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="quote">Request a Quote</button>
+      </nav>
+
+      <!-- Hero Section -->
+      <div id="hero">
+        <div id="left">
+          <h2>Empowering Your Digital Journey to Success</h2>
+          <p>
+            Our digital agency helps businesses grow and succeed online through a range of services including SEO, PPC, and content creation.
+          </p>
+          <button>Book a Consultation</button>
+        </div>
+        <div id="right">
+          <img src="./Hero.svg" alt="Digital marketing and growth illustration" />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts: Load in order -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
