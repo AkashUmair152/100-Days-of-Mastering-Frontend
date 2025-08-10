@@ -40,6 +40,10 @@ nav {
   padding: 20px 0;
   height: 15%;
   flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
 }
 
 nav h1 {
@@ -47,7 +51,6 @@ nav h1 {
   color: #000;
 }
 
-/* Navigation Links */
 nav .items {
   display: flex;
   align-items: center;
@@ -83,13 +86,12 @@ nav .items a:hover::after {
   width: 100%;
 }
 
-/* Quote Button */
 nav .quote {
   padding: 8px 20px;
   background-color: transparent;
   border: 1px solid #000;
   border-radius: 10px;
-  font-size: 1.5625rem; /* 25px */
+  font-size: 1.5625rem;
   font-weight: 300;
   color: #000;
   cursor: pointer;
@@ -115,7 +117,7 @@ nav .quote:hover {
 #left,
 #right {
   flex: 1;
-  min-width: 0; /* Prevents overflow from content */
+  min-width: 0;
 }
 
 #left h2 {
@@ -152,11 +154,143 @@ nav .quote:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Right Side Image */
 #right img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* Marquee Section */
+#section-2 {
+  margin: 2rem 0;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+#move {
+  background-color: #cefb6b;
+  overflow: hidden;
+  padding: 1rem 0;
+  min-height: 60px;
+}
+
+.marquee {
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+  flex-shrink: 0;
+}
+
+.marquee h1 {
+  font-size: clamp(32px, 5vw, 50px);
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.marquee img {
+  height: 4vw;
+  min-height: 32px;
+  transition: transform 0.5s ease;
+}
+
+/* Services Section - Intro Text */
+#services {
+  padding: 4rem 0;
+}
+
+#services .text {
+  display: flex;
+  align-items: center;          /* Vertically center */
+  justify-content: flex-start;  /* Optional: aligns items to the start */
+  gap: 50px;                    /* Space between h1 and p */
+  padding: 1rem 0;
+}
+
+#services .text h1 {
+  /* Takes only the width it needs */
+  white-space: nowrap;          /* Prevents text from wrapping */
+  margin: 0;
+  padding: 0 15px;              /* Optional: visual padding */
+  background-color: #B4E860;    /* Matches your style */
+  color: #000;
+  font-size: clamp(32px, 6vw, 55px);
+  font-weight: 200;
+  border-radius: 12px;
+  flex-shrink: 0;               /* Prevents shrinking if needed */
+}
+
+#services .text p {
+  /* Takes all remaining space */
+  flex: 1;
+  margin: 0;
+  font-size: clamp(16px, 4vw, 18px);
+  line-height: 1.7;
+  color: #555;
+  overflow: hidden;             /* Prevents overflow if text is too long */
+  word-wrap: break-word;
+}
+
+#services > div:first-child {
+  margin-bottom: 3rem;
+}
+
+#services h1 {
+  font-size: clamp(32px, 6vw, 55px);
+  font-weight: 200;
+  background-color: #B4E860;
+  color: #000;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+#services p {
+  font-size: clamp(16px, 4vw, 18px);
+  max-width: 700px;
+  line-height: 1.7;
+
+}
+
+#card-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap ;
+  align-items: center;
+  height: 40vh;
+  
+}
+
+.service-card{
+  border:1px solid #000;
+  border-radius: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 10px 20px -10px #000;
+}
+.service-card img{
+  width: 200px;
+  height: 200px;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 16px 30px -14px rgba(0, 0, 0, 0.4),
+    0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.green{
+  background-color: #B4E860;
+
+}
+.black{
+  background-color: #000;
+  color: #fff;
 }
 
 /* Responsive Design */
@@ -181,7 +315,40 @@ nav .quote:hover {
   }
 
   #left button {
-    margin-left: 20px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #services h2 {
+    font-size: 36px;
+  }
+
+  #services p {
+    font-size: 16px;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .service-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .marquee h1 {
+    font-size: 24px;
+    padding: 0 6px;
+  }
+
+  .marquee img {
+    height: 6vw;
   }
 }
 
@@ -211,5 +378,24 @@ nav .quote:hover {
   #left p {
     font-size: 0.95rem;
     padding: 0 15px;
+  }
+
+  .service-card img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee h1 {
+    font-size: 20px;
+    padding: 0 4px;
+  }
+
+  .marquee img {
+    height: 8vw;
+  }
+
+  #move {
+    padding: 0.5rem 0;
   }
 }
